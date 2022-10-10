@@ -1,8 +1,9 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import { toLower } from 'lodash';
 
 // store modules
+// Only required ones can be imported in profile page.
+// This is the best way while creating large applicaiton where big amount of data can be stored in indivitual modules
 
 import PROFILE from './store/profile.store.js';
 
