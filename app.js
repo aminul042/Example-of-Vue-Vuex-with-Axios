@@ -3,7 +3,15 @@ require('./bootstrap');
 window.Vue = require('vue');
 
 import { store } from './store';
+
+// Global helper functions, for example function for validations or any repeated funciton can be storeed in
+// filters.js and can be used in any component like below:
+// this.$helpers.capFirstLetter('hello world');       // this will output 'Hello World'.
+
 import helpers from './helpers';
+
+// Global filters, can be used in any component as those filters exists in that component:
+
 import filters from '.filters';
 
 // Using global filters for all vue components:
