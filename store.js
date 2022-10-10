@@ -5,7 +5,7 @@ import Vuex from 'vuex';
 // Only required ones can be imported in profile page.
 // This is the best way while creating large applicaiton where big amount of data can be stored in indivitual modules
 
-import PROFILE from './store/profile.store.js';
+import PROFILE from './stores/profile.store.js';
 
 Vue.use(Vuex);
 const debug = process.env.NODE_ENV !== 'production';
